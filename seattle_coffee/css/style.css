@@ -1,0 +1,101 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif"Chalkboard";
+   background-color: #e6e6e6;
+}
+header {
+   width: 100%;
+   padding: 30px 4% 10px;
+    background-color: transparent;
+   position: fixed;
+   top: 0;
+    display: flex;
+   align-items: center;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+a {	
+   text-decoration: none;
+   color: #ffffff;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+li {
+    margin: 0 0 0 15px;
+    font-size: 14px;
+}
+nav {
+    margin: 0 0 0 auto;
+}
+.main-visual {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background: url(pouring-hot-water-in-cafe-to-make-coffee.jpg) top center / cover no-repeat;
+}
+h2 {
+   font-size: 50px;
+   color: #ffff;
+}
+h3 {
+    font-size: 50px;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    font-size: 25px;
+}
+p {
+    padding: 20px;
+    font-size: 20px
+}
+p img {
+    width: 800px;
+    padding-right:20px;
+}
+.menu {
+    text-align: center;
+    padding:50px;
+    background-color: rgba(27,63,64,1)
+}
+
+.menu h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+.menu h2 {
+    font-size:40px;
+    text-align: center;
+    border-bottom: medium solid #ffffff;
+    font-family: "Chalkboard";
+}
+.menu ul {
+    text-align: center;
+}
+.menu p {
+    font-size: 20px;
+    color: #ffffff;
+    padding-left:50px;
+}
+.address {
+    background-color: rgba(42,39,48,1)
+}
+.address h1{
+    padding: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+}
